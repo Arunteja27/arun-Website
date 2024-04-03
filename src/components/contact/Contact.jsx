@@ -53,7 +53,7 @@ const Contact = () => {
                 href="https://www.linkedin.com/in/arunkuchibhatla/"
                 className="contact__button"
               >
-                Stalk me{" "}
+                Let's connect & chat!{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -103,7 +103,7 @@ const Contact = () => {
                 type="text"
                 name="name"
                 className="contact__form-input"
-                placeholder="Insert your name"
+                placeholder="Type your name"
               />
             </div>
 
@@ -113,7 +113,7 @@ const Contact = () => {
                 type="email"
                 name="email"
                 className="contact__form-input"
-                placeholder="Insert your email"
+                placeholder="Type your email"
               />
             </div>
 

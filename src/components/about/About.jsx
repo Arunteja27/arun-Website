@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/arun-says-hi.jpeg";
-import CV from "../../assets/Smith-Cv.pdf";
+import Resume from "../../assets/Resume_Arunteja_Kuchibhatla.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -26,7 +26,7 @@ const About = () => {
             and better understand how to implement various data structures.
           </p>
 
-          <a download="" href={CV} className="button button--flex">
+          <a download="" href={Resume} className="button button--flex">
             Download Resume
             <svg
               class="button__icon"
