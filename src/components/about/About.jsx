@@ -26,8 +26,8 @@ const About = () => {
             and better understand how to implement various data structures.
           </p>
 
-          <a download="" href={Resume} className="button button--flex">
-            Download Resume
+          <a href={Resume} target="_blank" className="button button--flex">
+            Open Resume
             <svg
               class="button__icon"
               xmlns="http://www.w3.org/2000/svg"
