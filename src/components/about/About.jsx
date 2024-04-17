@@ -7,7 +7,7 @@ import Info from "./Info";
 const About = () => {
   return (
     <section className="about section" id="about">
-      <h2 className="section__title">About Me</h2>
+      <h2 className="section__title">About Me (Resume below!)</h2>
       <span className="section__subtitle">My introduction</span>
 
       <div className="about__container container grid">
@@ -18,7 +18,7 @@ const About = () => {
 
           <p className="about__description">
             As a rising 3rd year CS at Carleton University, I have 8 months of Software Engineering
-            experiene from the Royal Bank of Canada (RBC) doing full stack development using Go, TypeScript, React and Backstage.io
+            experience from the Royal Bank of Canada (RBC) doing full stack development using Go, TypeScript, React and Backstage.io
             <br></br>
             <br />
             I'm also a Teaching Assistant for Data Structures and Alogorithms in Java since Fall 2022, where I
