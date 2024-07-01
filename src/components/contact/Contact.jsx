@@ -103,7 +103,7 @@ const Contact = () => {
                 type="text"
                 name="name"
                 className="contact__form-input"
-                placeholder="Type your name"
+                placeholder="Form currently broken, fixing"
               />
             </div>
 
@@ -113,7 +113,7 @@ const Contact = () => {
                 type="email"
                 name="email"
                 className="contact__form-input"
-                placeholder="Type your email"
+                placeholder="Form currently broken, fixing"
               />
             </div>
 
@@ -124,7 +124,9 @@ const Contact = () => {
                 cols="30"
                 rows="10"
                 className="contact__form-input"
-                placeholder="Write your message"
+                placeholder="Form currently broken, fixing 
+                
+                >~< rip"
               ></textarea>
             </div>
 
