@@ -11,7 +11,7 @@ const Tools = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Git</h3>
+              <h3 className="skills__name">AWS</h3>
               {/* <span className="skills__level">Intermediate</span> */}
             </div>
           </div>
@@ -41,7 +41,7 @@ const Tools = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">AWS</h3>
+              <h3 className="skills__name">Git</h3>
               <span className="skills__level">&nbsp;</span>
             </div>
           </div>
@@ -50,7 +50,7 @@ const Tools = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Spring Boot</h3>
+              <h3 className="skills__name">Kubernetes</h3>
               <span className="skills__level">&nbsp;</span>
             </div>
           </div>

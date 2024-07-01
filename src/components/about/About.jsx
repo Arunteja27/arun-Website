@@ -17,13 +17,11 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            As a rising 3rd year CS at Carleton University, I have 8 months of Software Engineering
-            experience from the Royal Bank of Canada (RBC) doing full stack development using Go, TypeScript, React and Backstage.io
+      
+            As a rising 3rd year Computer Science student at Carleton University, I bring over a year of software engineering experience from my internships at RBC, where I worked on full stack development using technologies like Java, TypeScript, React, and Spring WebFlux. I have implemented critical features improving regulatory compliance and optimized backend processes, reducing data errors and enhancing system performance. 
             <br></br>
-            <br />
-            I'm also a Teaching Assistant for Data Structures and Alogorithms in Java since Fall 2022, where I
-            conduct regular office hours and help students optimize for better runtime & space compelxities
-            and better understand how to implement various data structures.
+            <br></br>
+            Additionally, as a Teaching Assistant for Data Structures and Algorithms in Java, I mentor students, helping them grasp complex concepts and improve their coding skills.
           </p>
 
           <a href={Resume} target="_blank" className="button button--flex">
