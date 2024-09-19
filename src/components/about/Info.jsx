@@ -22,7 +22,7 @@ const Info = () => {
         <i class='bx bxs-book about__icon'></i>
 
         <h3 className="about__title">Education</h3>
-        <span className="about__subtitle">Rising 3rd year CS</span>
+        <span className="about__subtitle">4th Year CS</span>
       </div>
     </div>
   );

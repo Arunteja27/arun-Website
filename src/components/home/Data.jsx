@@ -57,7 +57,7 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Aspiring Software Engineer</h3>
       <p className="home__description">
-        I'm a rising 3rd Year Computer Science student studying in Carleton University.
+        I'm a 4th Year Computer Science student studying at Carleton University. I'm seeking 2025 Software Engineering internships!
       </p>
 
       <a href="#contact" className="button button--flex">
