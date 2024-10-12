@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import AboutImg from "../../assets/arun-says-hi.jpeg";
+import AboutImg from "../../assets/maybe0.png";
 import Resume from "../../assets/Resume_Arunteja_Kuchibhatla.pdf";
 import Info from "./Info";
 
