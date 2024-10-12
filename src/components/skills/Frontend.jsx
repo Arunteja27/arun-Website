@@ -49,7 +49,7 @@ const Frontend = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">TailwindCSS</h3>
+              <h3 className="skills__name">Tailwind CSS</h3>
               <span className="skills__level">&nbsp;</span>
             </div>
           </div>

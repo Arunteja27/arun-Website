@@ -18,10 +18,10 @@ const About = () => {
 
           <p className="about__description">
 
-          I’m a 4th-year Computer Science student at Carleton University with over a year of hands-on software engineering experience from my internships at RBC. I've worked extensively on full-stack projects using Java, TypeScript, React, and Spring WebFlux, where I’ve implemented key features that improved regulatory compliance, optimized backend systems and improved deployment efficiency with CI/CD pipelines.
+          I’m a 4th-year Computer Science student at Carleton University with over 1 year of software engineering internship experience. I've gained proficiency in Java, Spring Boot, TypeScript and React, using which I’ve developed secure backend APIs & Spring services, engineered key internal tools and improved CI/CD pipelines deployment efficiency.
           <br></br>
           <br></br>
-          As a Teaching Assistant for Data Structures and Algorithms, I’ve mentored over 400 students, simplifying complex concepts and improving their understanding of key computer science fundamentals. 
+          As a Teaching Assistant for Abstract Data Types & Algorithms, I’ve mentored over 600 students, simplifying complex concepts and enhancing their algorithmic problem solving skills.
           <br></br>
           <br></br>
           I’m passionate about using technology to solve real-world problems and am looking to break into big tech for my last internship!

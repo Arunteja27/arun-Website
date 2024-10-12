@@ -7,13 +7,13 @@ import Work6 from "../../assets/stonks.jpeg";
 import Work7 from "../../assets/SmartWardrobe.png";
 
 export const projectsData = [
-  {
-    id: 1,
-    image: Work7,
-    title: "Smart Wardrobe",
-    category: "web",
-    link: "https://github.com/Arunteja27/outfit-recommender"
-  },
+  // {
+  //   id: 1,
+  //   image: Work7,
+  //   title: "Smart Wardrobe",
+  //   category: "web",
+  //   link: "https://github.com/Arunteja27/outfit-recommender"
+  // },
   {
     id: 2,
     image: Work5,
@@ -29,11 +29,11 @@ export const projectsData = [
     link: "https://github.com/Arunteja27/Vibe-ify"
   },
   {
-    id: 4,
-    image: Work1,
-    title: "Portfolio Website",
+    id: 7,
+    image: Work6,
+    title: "JP Morgan Stock Ticker Tracker",
     category: "web",
-    link: "https://github.com/Arunteja27/arun-Website"
+    link: "https://github.com/Arunteja27/jpmc-task-1"
   },
   {
     id: 5,
@@ -50,11 +50,11 @@ export const projectsData = [
     link: "https://github.com/Arunteja27/Save-Soil-Web-Scraper"
   },
   {
-    id: 7,
-    image: Work6,
-    title: "JP Morgan Stock Ticker Tracker",
+    id: 4,
+    image: Work1,
+    title: "Portfolio Website",
     category: "web",
-    link: "https://github.com/Arunteja27/jpmc-task-1"
+    link: "https://github.com/Arunteja27/arun-Website"
   },
 ];
 
