@@ -10,11 +10,13 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_x1hewh5",
-        "template_2ki8hlo",
+        "service_lkn7wn9",
+        "template_q2qhi47",
         form.current,
-        "vxDcl4UI2jbOQBn6f"
+        "nZyr5VytMUHGHjuBw"
       )
+      .then(() => alert("Message sent successfully!"))
+      .catch((error) => alert("Failed to send message: " + error.text));
       e.target.reset()
   };
 
@@ -101,9 +103,9 @@ const Contact = () => {
               <label className="contact__form-tag">Name</label>
               <input
                 type="text"
-                name="name"
+                name="from_name"
                 className="contact__form-input"
-                placeholder="Form currently broken, fixing"
+                placeholder="Enter your name"
               />
             </div>
 
@@ -111,22 +113,20 @@ const Contact = () => {
               <label className="contact__form-tag">Email</label>
               <input
                 type="email"
-                name="email"
+                name="from_email"
                 className="contact__form-input"
-                placeholder="Form currently broken, fixing"
+                placeholder="Enter your email"
               />
             </div>
 
             <div className="contact__form-div contact__form-area">
               <label className="contact__form-tag">Message</label>
               <textarea
-                name="project"
+                name="message"
                 cols="30"
                 rows="10"
                 className="contact__form-input"
-                placeholder="Form currently broken, fixing 
-                
-                >~< rip"
+                placeholder="Enter your message"
               ></textarea>
             </div>
 
