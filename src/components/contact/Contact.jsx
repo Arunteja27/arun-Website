@@ -13,7 +13,7 @@ const Contact = () => {
         "service_lkn7wn9",
         "template_q2qhi47",
         form.current,
-        "nZyr5VytMUHGHjuBw"
+        "Iw3VbkpV1-Q7vQQBS"
       )
       .then(() => alert("Message sent successfully!"))
       .catch((error) => alert("Failed to send message: " + error.text));
