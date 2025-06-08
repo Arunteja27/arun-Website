@@ -1,0 +1,6 @@
+For local dev: npm run dev
+
+For production deployment: 
+
+.\deploy.ps1 (For Windows)
+npm run deploy (For MacOS) 
