@@ -1,0 +1,183 @@
+.experience__container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.experience__content {
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  border-radius: 1.25rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  transition: all 0.3s ease;
+}
+
+.experience__content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 35px rgba(14, 36, 49, 0.2);
+}
+
+.experience__header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.experience__logo {
+  flex-shrink: 0;
+}
+
+.experience__logo-placeholder {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, var(--title-color), var(--title-color-dark));
+  color: white;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-semi-bold);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.experience__logo-img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding: 0px;
+}
+
+.experience__info {
+  flex: 1;
+  min-width: 0;
+  padding-right: 1rem;
+}
+
+.experience__company {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+  margin-bottom: 0.25rem;
+  line-height: 1.2;
+}
+
+.experience__role {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  color: var(--text-color);
+  margin-bottom: 0;
+  line-height: 1.4;
+}
+
+.experience__date-location {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.25rem;
+  flex-shrink: 0;
+  text-align: right;
+  align-self: flex-start;
+  margin-top: 0.125rem;
+}
+
+.experience__period {
+  font-size: var(--small-font-size);
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+  background-color: rgba(var(--title-color-rgb), 0.1);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+  line-height: 1.2;
+}
+
+.experience__location {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+  font-style: italic;
+  line-height: 1.2;
+}
+
+.experience__details {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.experience__description {
+  font-size: var(--normal-font-size);
+  color: var(--text-color);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .experience__content {
+    padding: 1.5rem;
+  }
+  
+  .experience__header {
+    gap: 1rem;
+  }
+  
+  .experience__logo-placeholder {
+    width: 50px;
+    height: 50px;
+    font-size: var(--normal-font-size);
+  }
+
+  .experience__logo-img {
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+  }
+  
+  .experience__company {
+    font-size: var(--normal-font-size);
+  }
+  
+  .experience__role {
+    font-size: var(--small-font-size);
+  }
+
+  .experience__info {
+    padding-right: 0.5rem;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 576px) {
+  .experience__content {
+    padding: 1rem;
+  }
+  
+  .experience__header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.75rem;
+  }
+  
+  .experience__date-location {
+    align-items: center;
+    text-align: center;
+  }
+
+  .experience__info {
+    padding-right: 0;
+  }
+  
+  .experience__period,
+  .experience__location {
+    font-size: var(--smaller-font-size);
+  }
+} 

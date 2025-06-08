@@ -11,8 +11,7 @@ const Tools = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">PostgreSQL</h3>
-              {/* <span className="skills__level">Intermediate</span> */}
+              <h3 className="skills__name">Git</h3>
             </div>
           </div>
 
@@ -20,8 +19,7 @@ const Tools = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">MongoDB</h3>
-              {/* <span className="skills__level">Intermediate</span> */}
+              <h3 className="skills__name">Azure</h3>
             </div>
           </div>
 
@@ -30,28 +28,32 @@ const Tools = () => {
 
             <div>
               <h3 className="skills__name">Docker</h3>
-              {/* <span className="skills__level">Basic</span> */}
             </div>
           </div>
-        </div>
-
-        <div className="skills__group">
 
           <div className="skills__data">
             <i class="bx bx-badge-check"></i>
 
             <div>
               <h3 className="skills__name">Jenkins</h3>
-              <span className="skills__level">&nbsp;</span>
             </div>
           </div>
 
+          <div className="skills__data">
+            <i class="bx bx-badge-check"></i>
+
+            <div>
+              <h3 className="skills__name">GPT-4</h3>
+            </div>
+          </div>
+        </div>
+
+        <div className="skills__group">
           <div className="skills__data">
             <i class="bx bx-badge-check"></i>
 
             <div>
               <h3 className="skills__name">Kubernetes</h3>
-              <span className="skills__level">&nbsp;</span>
             </div>
           </div>
 
@@ -59,11 +61,25 @@ const Tools = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Git</h3>
-              <span className="skills__level">&nbsp;</span>
+              <h3 className="skills__name">Postman</h3>
             </div>
           </div>
 
+          <div className="skills__data">
+            <i class="bx bx-badge-check"></i>
+
+            <div>
+              <h3 className="skills__name">Jira</h3>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i class="bx bx-badge-check"></i>
+
+            <div>
+              <h3 className="skills__name">Claude</h3>
+            </div>
+          </div>
         </div>
       </div>
     </div>

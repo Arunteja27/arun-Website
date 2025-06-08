@@ -2,15 +2,15 @@ import React, { useState } from "react";
 import "./header.css";
 
 const Header = () => {
-  /*=============== Change Background Header ===============*/
+  
   window.addEventListener("scroll", function () {
     const header = document.querySelector(".header");
-    // when the scroll is higher than 200 viewport height, add the scroll-header class to a tag with the header tag
+    
     if (this.scrollY >= 80) header.classList.add("scroll-header");
     else header.classList.remove("scroll-header");
   });
 
-  /*=============== Toggle Menu ===============*/
+  
   const [Toggle, showMenu] = useState(false);
   const [activeNav, setActiveNav] = useState("#home");
 
@@ -60,6 +60,21 @@ const Header = () => {
                 <i className="uil uil-file-alt nav__icon"></i> Skills
               </a>
             </li>
+
+            <li className="nav__item">
+              <a
+                href="#experience"
+                onClick={() => setActiveNav("#experience")}
+                className={
+                  activeNav === "#experience"
+                    ? "nav__link active-link"
+                    : "nav__link"
+                }
+              >
+                <i className="uil uil-briefcase-alt nav__icon"></i> Experience
+              </a>
+            </li>
+
             <li className="nav__item">
               <a
                 href="#projects"

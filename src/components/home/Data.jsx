@@ -55,7 +55,6 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Aspiring Software Engineer</h3>
       <p className="home__description">
         I'm a 4th Year Computer Science student studying at Carleton University. I'm seeking 2025 Software Engineering internships!
       </p>
