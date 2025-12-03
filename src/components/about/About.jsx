@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import AboutImg from "../../assets/maybe0.png";
+import AboutImg from "../../assets/linkedin-pfp-brightened.jpeg";
 import Resume from "../../assets/Resume_Arunteja_Kuchibhatla.pdf";
 import Info from "./Info";
 
@@ -18,9 +18,7 @@ const About = () => {
 
           <p className="about__description">
 
-          I'm a Computer Science Honours student at Carleton University, graduating in December 2026. Currently, I'm a Software Engineer Intern at Shopify, building scalable solutions for 3M+ merchants. I'm skilled in Java, Ruby, React, and modern web technologies, with a passion for solving real-world problems through technology.
-
-          </p>
+            I’m a Computer Science Honours student at Carleton University (graduating Dec 2026) with software engineering experience at Shopify and RBC. I specialize in building high-availability distributed systems and AI-driven features that serve millions of users. My technical focus spans Java, Ruby, and React, with a passion for solving complex reliability and performance challenges at scale. Currently, I also drive talent strategy as VP of Talent at CU Blueprint.          </p>
 
           <a href={Resume} target="_blank" className="button button--flex">
             Open Resume

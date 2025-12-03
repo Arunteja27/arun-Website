@@ -10,10 +10,10 @@ const Experience = () => {
       id: 1,
       company: "Shopify Inc.",
       role: "Software Engineer Intern - Growth RnD, Sell in Minutes",
-      period: "May 2025 - Present",
+      period: "May 2025 - August 2025",
       location: "Toronto, Ontario",
-      description: "Building merchant onboarding features in Ruby, React & GPT-4 for 3M+ merchants serving 270M+ clients.",
-      logo: ShopifyLogo 
+      description: "Building merchant onboarding features in Ruby, React & Gemini 2.0 for 3M+ merchants serving 270M+ clients.",
+      logo: ShopifyLogo
     },
     {
       id: 2,
@@ -54,17 +54,17 @@ const Experience = () => {
           <div key={exp.id} className="experience__content">
             <div className="experience__header">
               <div className="experience__logo">
-            
+
                 {exp.logo && typeof exp.logo === 'string' && !exp.logo.includes('placeholder') ? (
-                  <img 
-                    src={exp.logo} 
-                    alt={`${exp.company} logo`} 
+                  <img
+                    src={exp.logo}
+                    alt={`${exp.company} logo`}
                     className="experience__logo-img"
                   />
                 ) : exp.logo && typeof exp.logo !== 'string' ? (
-                  <img 
-                    src={exp.logo} 
-                    alt={`${exp.company} logo`} 
+                  <img
+                    src={exp.logo}
+                    alt={`${exp.company} logo`}
                     className="experience__logo-img"
                   />
                 ) : (

@@ -27,7 +27,7 @@ export const projectsData = [
   {
     id: 3,
     image: Work8,
-    title: "RaDoTech Health Monitoring Simulation",
+    title: "Health Monitoring Simulation",
     category: "backend",
     link: "https://github.com/nikolajszarins/3004-project",
     description: "A comprehensive health monitoring system simulation built with Java and Object-Oriented design principles. Features real-time patient monitoring, automated alert systems, and data visualization for healthcare professionals."

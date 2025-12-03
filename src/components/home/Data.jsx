@@ -56,7 +56,7 @@ const Data = () => {
         </svg>
       </h1>
       <p className="home__description">
-        I'm a 4th Year Computer Science student studying at Carleton University. I'm seeking 2025 Software Engineering internships!
+        I'm a 4th Year Computer Science student studying at Carleton University. I'm seeking 2026 Software Engineering internships!
       </p>
 
       <a href="#contact" className="button button--flex">
