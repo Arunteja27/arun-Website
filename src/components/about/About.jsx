@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import AboutImg from "../../assets/linkedin-pfp-brightened.jpeg";
+import beachboi from "../../assets/beach-boi.png";
 import Resume from "../../assets/Resume_Arunteja_Kuchibhatla.pdf";
 import Info from "./Info";
 
@@ -11,14 +11,14 @@ const About = () => {
       <span className="section__subtitle">My introduction</span>
 
       <div className="about__container container grid">
-        <img src={AboutImg} alt="" className="about__img" />
+        <img src={beachboi} alt="Arunteja Kuchibhatla" className="about__img" />
 
         <div className="about__data">
           <Info />
 
           <p className="about__description">
 
-            I’m a Computer Science Honours student at Carleton University (graduating Dec 2026) with software engineering experience at Shopify and RBC. I specialize in building high-availability distributed systems and AI-driven features that serve millions of users. My technical focus spans Java, Ruby, and React, with a passion for solving complex reliability and performance challenges at scale. Currently, I also drive talent strategy as VP of Talent at CU Blueprint.          </p>
+I’m a Computer Science Honours student at Carleton University graduating in December 2026, with software engineering experience at Shopify and RBC. I build backend systems, AI-powered product features, GraphQL APIs, and performance-critical services used at scale. I’m focused on distributed systems, AI infrastructure, developer tools, and reliable software that solves real problems.            </p>
 
           <a href={Resume} target="_blank" className="button button--flex">
             Open Resume

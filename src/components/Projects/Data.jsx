@@ -6,18 +6,27 @@ import Work5 from "../../assets/catch-that-fridge.png";
 import Work6 from "../../assets/stonks.jpeg";
 import Work7 from "../../assets/code-spa.png";
 import Work8 from "../../assets/radotech.webp";
+import Work9 from "../../assets/repolens.png";
 
 export const projectsData = [
   {
     id: 1,
-    image: Work7,
-    title: "Code Spa VSCode Extension",
-    category: "web",
-    link: "https://github.com/Arunteja27/code-spa",
-    description: "A comprehensive VSCode extension that transforms your coding experience with dynamic backgrounds, music integration, customizable themes, and AI-powered features. Built with TypeScript, GPT-4, and the Spotify Webpack SDK to optimize developer productivity."
+    image: Work9,
+    title: "RepoLens AI",
+    category: "backend",
+    link: "https://github.com/Arunteja27/repolens-ai",
+    description: "Cloud Run-deployed RAG assistant for GitHub repos with hybrid search, citation-grounded answers, evals, and observability."
   },
   {
     id: 2,
+    image: Work7,
+    title: "Code Spa",
+    category: "web",
+    link: "https://github.com/Arunteja27/code-spa",
+    description: "A comprehensive VSCode extension that transforms your coding experience with dynamic backgrounds, music integration, customizable themes, and AI-powered features. Built with TypeScript, Gemini 2.0, and the Spotify Webpack API to optimize developer productivity."
+  },
+  {
+    id: 3,
     image: Work2,
     title: "Nerd Express",
     category: "backend",
@@ -25,7 +34,7 @@ export const projectsData = [
     description: "A sophisticated backend system designed for educational content delivery and management. Features robust API architecture and efficient data handling for scalable learning platforms."
   },
   {
-    id: 3,
+    id: 4,
     image: Work8,
     title: "Health Monitoring Simulation",
     category: "backend",
@@ -33,7 +42,7 @@ export const projectsData = [
     description: "A comprehensive health monitoring system simulation built with Java and Object-Oriented design principles. Features real-time patient monitoring, automated alert systems, and data visualization for healthcare professionals."
   },
   {
-    id: 4,
+    id: 5,
     image: Work3,
     title: "Email bot for Save Soil",
     category: "automation",
@@ -41,7 +50,7 @@ export const projectsData = [
     description: "An automated email campaign system supporting environmental awareness initiatives. Features web scraping capabilities and intelligent email distribution for maximum outreach impact."
   },
   {
-    id: 5,
+    id: 6,
     image: Work5,
     title: "Catch that fridge!",
     category: "web",
@@ -49,7 +58,7 @@ export const projectsData = [
     description: "A full-stack web application helping users track food expiration dates and reduce waste. Built with Express.js backend and modern frontend technologies for seamless food inventory management."
   },
   {
-    id: 6,
+    id: 7,
     image: Work4,
     title: "Vibe-ify",
     category: "backend",
@@ -57,7 +66,7 @@ export const projectsData = [
     description: "A music recommendation system that analyzes user preferences and listening patterns to suggest personalized playlists. Integrates with music APIs to deliver tailored music experiences."
   },
   {
-    id: 7,
+    id: 8,
     image: Work6,
     title: "JP Morgan Stock Ticker Tracker",
     category: "web",
@@ -65,7 +74,7 @@ export const projectsData = [
     description: "A real-time stock market tracking application built for JP Morgan's software engineering virtual experience. Features live data visualization, price alerts, and comprehensive market analysis tools."
   },
   {
-    id: 8,
+    id: 9,
     image: Work1,
     title: "Portfolio Website",
     category: "web",

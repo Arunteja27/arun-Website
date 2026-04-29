@@ -9,37 +9,46 @@ const Experience = () => {
     {
       id: 1,
       company: "Shopify Inc.",
-      role: "Software Engineer Intern - Growth RnD, Sell in Minutes",
-      period: "May 2025 - August 2025",
+      role: "Software Engineer Intern - Ads Experience",
+      period: "May 2026 - August 2026",
       location: "Toronto, Ontario",
-      description: "Building merchant onboarding features in Ruby, React & Gemini 2.0 for 3M+ merchants serving 270M+ clients.",
+      description: "Building merchant-facing ad tools for campaign setup, optimization, and performance tracking across ads surfaces.",
       logo: ShopifyLogo
     },
     {
       id: 2,
+      company: "Shopify Inc.",
+      role: "Software Engineer Intern - Sell in Minutes",
+      period: "May 2025 - August 2025",
+      location: "Toronto, Ontario",
+      description: "Built Ruby backend services and GraphQL APIs for merchant onboarding, including Gemini-powered voice agent rollouts across 15+ regions and zero-downtime migration from legacy endpoints.",
+      logo: ShopifyLogo
+    },
+    {
+      id: 3,
       company: "Carleton University",
       role: "Teaching Assistant for Abstract Data Types and Algorithms",
       period: "September 2022 - December 2024",
       location: "Ottawa, Ontario",
-      description: "Guided 600+ students in mastering data structures and algorithms via office hours. Led optimization workshops, contributing to 200+ A+ grades.",
+      description: "Mentored 600+ students through office hours and workshops on Big-O analysis, graph theory, dynamic programming, and Java programming.",
       logo: CarletonLogo
-    },
-    {
-      id: 3,
-      company: "Royal Bank of Canada",
-      role: "Software Developer Intern - Financial Data Exchange",
-      period: "May 2024 - August 2024",
-      location: "Toronto, Ontario",
-      description: "Developed RESTful APIs in Java with JWT, impacting 15M+ online banking users. Engineered a Spring WebFlux orchestrator that triggers downstream services based on user interactions, reducing app load times by 50% (4s to 2s).",
-      logo: RBCLogo
     },
     {
       id: 4,
       company: "Royal Bank of Canada",
+      role: "Software Developer Intern - Financial Data Exchange",
+      period: "May 2024 - August 2024",
+      location: "Toronto, Ontario",
+      description: "Built Spring WebFlux orchestration and Java REST APIs for high-scale banking systems, reducing API startup latency by 50% and securing financial data exchange for 15M+ users.",
+      logo: RBCLogo
+    },
+    {
+      id: 5,
+      company: "Royal Bank of Canada",
       role: "Software Developer Intern - DevOps Engineering",
       period: "May 2023 - December 2023",
       location: "Toronto, Ontario",
-      description: "Automated onboarding with React service portal, increasing registered services by 35% QoQ. Built Python ETL pipelines reducing load times by 40%.",
+      description: "Built Python ETL tooling for Entra ID data to eliminate redundant frontend lookups and reduce load times by 50%.",
       logo: RBCLogo
     }
   ];
