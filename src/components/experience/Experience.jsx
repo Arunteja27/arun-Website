@@ -9,7 +9,7 @@ const Experience = () => {
     {
       id: 1,
       company: "Shopify Inc.",
-      role: "Software Engineer Intern - Ads Experience",
+      role: "Software Engineer Intern - Shopify Ads",
       period: "May 2026 - August 2026",
       location: "Toronto, Ontario",
       description: "Building merchant-facing ad tools for campaign setup, optimization, and performance tracking across ads surfaces.",
