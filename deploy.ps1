@@ -1,46 +1,15 @@
-Write-Host "Creating temporary deployment directory..." -ForegroundColor Green
+# Keep the gh-pages clone off the long OneDrive checkout path.
+$previousCacheDir = $env:CACHE_DIR
 
-$gitRemote = git config --get remote.origin.url
-
-$tempDir = "C:\temp\deploy-$(Get-Random)"
-New-Item -ItemType Directory -Path $tempDir -Force | Out-Null
-
+Push-Location -LiteralPath $PSScriptRoot -ErrorAction Stop
 try {
-    Write-Host "Copying project files to temporary location..." -ForegroundColor Yellow
-    
-    # Copy essential files
-    Copy-Item "package.json" "$tempDir\"
-    Copy-Item "package-lock.json" "$tempDir\"
-    Copy-Item "vite.config.js" "$tempDir\"
-    Copy-Item "index.html" "$tempDir\"
-    Copy-Item ".eslintrc.cjs" "$tempDir\"
-    Copy-Item -Recurse "src" "$tempDir\"
-    Copy-Item -Recurse "public" "$tempDir\"
-    
-    Set-Location $tempDir
-    
-    Write-Host "Setting up git..." -ForegroundColor Yellow
-    git init
-    git remote add origin $gitRemote
-    
-    Write-Host "Installing dependencies..." -ForegroundColor Yellow
-    npm install
-    
-    Write-Host "Building and deploying..." -ForegroundColor Yellow
-    npm run deploy
-    
-    Write-Host "Deployment successful!" -ForegroundColor Green
-}
-catch {
-    Write-Host "Deployment failed: $_" -ForegroundColor Red
-}
-finally {
-    Set-Location $PSScriptRoot
-    
-    if (Test-Path $tempDir) {
-        Write-Host "Cleaning up temporary files..." -ForegroundColor Yellow
-        Remove-Item -Recurse -Force $tempDir -ErrorAction SilentlyContinue
+    $env:CACHE_DIR = 'C:\temp\arun-website-cache'
+    npm.cmd run deploy
+    if ($LASTEXITCODE -ne 0) {
+        throw "GitHub Pages deployment exited with code $LASTEXITCODE."
     }
 }
-
-Write-Host "Script completed." -ForegroundColor Green 
+finally {
+    Pop-Location
+    $env:CACHE_DIR = $previousCacheDir
+}

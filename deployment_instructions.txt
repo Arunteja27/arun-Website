@@ -1,6 +1,28 @@
-For local dev: npm run dev
+Install the locked dependencies from the repository directory:
 
-For production deployment: 
+    npm ci
 
-.\deploy.ps1 (For Windows)
-npm run deploy (For MacOS) 
+For local review:
+
+    npm run dev
+
+Open the /arun-Website/ URL shown by Vite. To check the production build locally:
+
+    npm run build
+    npm run preview
+
+For GitHub Pages publication after reviewing the local main branch:
+
+    git push origin main
+
+On Windows, run this in PowerShell:
+
+    .\deploy.ps1
+
+On macOS and Linux:
+
+    npm run deploy
+
+The deployment command builds index.html and publishes dist to the gh-pages branch.
+After the Pages deployment completes, arunteja27.github.io redirects to the portfolio
+at https://arunteja27.github.io/arun-Website/.

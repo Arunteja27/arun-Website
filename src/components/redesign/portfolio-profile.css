@@ -1,0 +1,195 @@
+.portfolio-experience,
+.portfolio-contact {
+  padding-block: clamp(4rem, 8vw, 7rem);
+}
+
+.portfolio-profile-heading {
+  font: italic 800 clamp(3rem, 8vw, 5.25rem)/0.94 var(--preview-display, 'Arial Narrow', sans-serif);
+  letter-spacing: -0.035em;
+}
+
+.portfolio-experience {
+  position: relative;
+  isolation: isolate;
+  overflow: clip;
+  color: var(--preview-ink);
+  background: var(--preview-paper);
+  padding-block-end: clamp(2.25rem, 4.6vw, 4.25rem);
+}
+
+.portfolio-experience::before {
+  position: absolute;
+  z-index: -1;
+  inset: 0 auto auto 0;
+  width: min(70vw, 45rem);
+  height: clamp(9rem, 22vw, 17rem);
+  background: radial-gradient(circle, var(--preview-deep) 0.8px, transparent 1.25px) 0 0 / 7px 7px;
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+  mask-image: linear-gradient(130deg, #000 0%, transparent 68%);
+  opacity: 0.32;
+  pointer-events: none;
+  content: '';
+}
+
+.portfolio-experience .portfolio-profile-heading {
+  width: fit-content;
+  margin-block-end: clamp(1.8rem, 4vw, 3.3rem);
+  color: var(--preview-deep);
+}
+
+.portfolio-experience-list {
+  border-block-end: 1px solid color-mix(in srgb, var(--preview-deep) 35%, transparent);
+}
+
+.portfolio-employer {
+  display: grid;
+  grid-template-columns: minmax(9rem, 0.75fr) minmax(0, 2fr);
+  gap: clamp(1.1rem, 5.5vw, 5rem);
+  padding-block: clamp(1.5rem, 3.8vw, 2.6rem);
+  border-block-start: 1px solid color-mix(in srgb, var(--preview-deep) 35%, transparent);
+}
+
+.portfolio-employer-meta h3 {
+  width: fit-content;
+  margin: 0;
+  color: var(--preview-ink);
+  font: italic 800 clamp(1.8rem, 3.8vw, 3rem)/0.98 var(--preview-display, 'Arial Narrow', sans-serif);
+  letter-spacing: -0.025em;
+}
+
+.portfolio-employer-meta p,
+.portfolio-role-header > span {
+  color: var(--preview-deep);
+  font: 500 0.78rem/1.45 var(--preview-mono, monospace);
+}
+
+.portfolio-employer-meta p {
+  margin-block-start: 0.5rem;
+}
+
+.portfolio-role-list,
+.portfolio-contact-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.portfolio-role + .portfolio-role {
+  margin-block-start: 1.35rem;
+  padding-block-start: 1.35rem;
+  border-block-start: 1px dashed color-mix(in srgb, var(--preview-deep) 38%, transparent);
+}
+
+.portfolio-role-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.2rem 0.9rem;
+}
+
+.portfolio-role-header h4 {
+  margin: 0;
+  font-size: clamp(1.08rem, 2vw, 1.35rem);
+  line-height: 1.24;
+  letter-spacing: -0.025em;
+}
+
+.portfolio-role-title {
+  margin-block-start: 0.38rem;
+  color: var(--preview-deep);
+  font-size: 0.85rem;
+  font-weight: 620;
+}
+
+.portfolio-role-description {
+  max-width: 59ch;
+  margin-block-start: 0.56rem;
+  font-size: 0.98rem;
+  line-height: 1.58;
+  text-wrap: pretty;
+}
+
+.portfolio-contact {
+  position: relative;
+  isolation: isolate;
+  color: var(--preview-paper);
+  background: var(--preview-ink);
+}
+
+.portfolio-contact::before {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: var(--preview-deep);
+  clip-path: polygon(0 0, 43% 0, 36% 8%, 0 18%);
+  pointer-events: none;
+  content: '';
+}
+
+.portfolio-contact-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+  gap: clamp(1.4rem, 5vw, 4.75rem);
+  align-items: start;
+}
+
+.portfolio-contact-links {
+  border-block-start: 1px solid color-mix(in srgb, var(--preview-paper) 37%, transparent);
+}
+
+.portfolio-contact-links a {
+  display: grid;
+  grid-template-columns: minmax(4rem, 0.6fr) minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.65rem;
+  min-height: 3.6rem;
+  padding-block: 0.65rem;
+  border-block-end: 1px solid color-mix(in srgb, var(--preview-paper) 37%, transparent);
+  color: inherit;
+  text-decoration: none;
+}
+
+.portfolio-contact-links a:is(:hover, :focus-visible) {
+  color: var(--preview-accent);
+}
+
+.portfolio-contact-links a:focus-visible {
+  outline-color: var(--preview-paper);
+}
+
+.portfolio-contact-channel {
+  font: italic 800 clamp(1.35rem, 3vw, 1.8rem)/1 var(--preview-display, 'Arial Narrow', sans-serif);
+}
+
+.portfolio-contact-address {
+  color: var(--preview-wash);
+  font-size: 0.86rem;
+  overflow-wrap: anywhere;
+}
+
+.portfolio-contact-arrow {
+  color: var(--preview-accent);
+  transition: transform 160ms ease;
+}
+
+.portfolio-contact-links a:is(:hover, :focus-visible) .portfolio-contact-arrow {
+  transform: translate(2px, -2px);
+}
+
+@media (max-width: 680px) {
+  .portfolio-employer,
+  .portfolio-contact-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .portfolio-employer {
+    gap: 1rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .portfolio-contact-arrow {
+    transition: none;
+  }
+}
