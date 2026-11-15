@@ -1,3 +1,4 @@
+import { useLayoutEffect } from 'react';
 import DitherPortrait from './DitherPortrait.jsx';
 import RocketCursor from './RocketCursor.jsx';
 import PortfolioMenu, { PortfolioOpeningMenu } from './PortfolioMenu.jsx';
@@ -8,6 +9,12 @@ import RepoLens from './RepoLens.jsx';
 import './redesign.css';
 
 export default function Portfolio() {
+  useLayoutEffect(() => {
+    // A shared section link may load before React has mounted its target.
+    const sectionId = window.location.hash.slice(1);
+    if (sectionId) document.getElementById(sectionId)?.scrollIntoView({ behavior: 'instant' });
+  }, []);
+
   return (
     <>
       <a className="redesign-skip" href="#main">Skip to content</a>
